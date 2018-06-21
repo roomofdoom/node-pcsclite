@@ -21,7 +21,7 @@
 				"OS=='linux'",
 				{
 
-				}
+				}],[
 					"OS=='mac'",
 					{
 						"libraries": [
