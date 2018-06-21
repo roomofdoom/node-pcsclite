@@ -18,23 +18,6 @@
 			],
 			"conditions": [
 				[
-					"OS=='linux'",
-					{
-						"include_dirs": [
-							"/usr/include/PCSC",
-							"<!(node -e \"require('nan')\")"
-						],
-						"link_settings": {
-							"libraries": [
-								"-lpcsclite"
-							],
-							"library_dirs": [
-								"/usr/lib"
-							]
-						}
-					}
-				],
-				[
 					"OS=='mac'",
 					{
 						"libraries": [
