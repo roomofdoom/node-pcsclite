@@ -18,6 +18,10 @@
 			],
 			"conditions": [
 				[
+				"OS=='linux'",
+				{
+
+				}
 					"OS=='mac'",
 					{
 						"libraries": [
