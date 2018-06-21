@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pokusew/node-pcsclite.git"
+    "url": "https://github.com/roomofdoom/node-pcsclite.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
